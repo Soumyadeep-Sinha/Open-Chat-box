@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-me</title>
+    <link rel="stylesheet" href="/index_style.css">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <section class="chat_section">
+        <div class="heading">
+            <img src="/images/brand_logo.png" alt="" class="brand_logo">
+            <h2 class="brand_text">Chat-me (chat with someone in the globe)</h2>
+        </div>
+
+        <div class="message_area"></div>
+        <div class="incoming"></div>
+
+        <div>
+            <textarea id="mymsg" cols="30" rows="1" placeholder="Enter your message."></textarea>
+        </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/user.js"></script>
+</body>
+
+</html>
