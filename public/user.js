@@ -3,7 +3,7 @@ let name;
 let textarea = document.querySelector('#mymsg')
 let messageArea = document.querySelector('.message_area')
 do {
-    name = prompt('Please enter your name: ')
+    name = prompt('Please enter a username to start : ')
 } while(!name)
 
 textarea.addEventListener('keyup', function(e) {
